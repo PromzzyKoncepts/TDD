@@ -3,8 +3,6 @@ require_relative '../solver'
 
 describe Solver do
   let(:solver) { Solver.new }
-  # context 'confirms the methods:' do
-  #   solver = Solver.new
 
   describe '#factorial' do
     it 'calculates the factorial for a positive integer' do
