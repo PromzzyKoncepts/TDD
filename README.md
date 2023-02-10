@@ -50,8 +50,6 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -59,6 +57,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - Install an IDE for example VScode
+- Ruby installed on your pc/laptop
 
 ### Setup
 
@@ -67,8 +66,6 @@ Clone this repository to your desired folder:
 ```sh
   git clone https://github.com/PromzzyKoncepts/TDD.git
 ```
-
--
 
 ### Install
 
