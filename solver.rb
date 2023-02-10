@@ -1,11 +1,9 @@
 class Solver
-  def factorial(n)
-    if n < 0
-      raise "Negative integer not allowed"
-    end
+  def factorial(num)
+    raise 'Negative integer not allowed' if num.negative?
 
     result = 1
-    (1..n).each do |i|
+    (1..num).each do |i|
       result *= i
     end
 
@@ -16,10 +14,11 @@ class Solver
     word.reverse
   end
 
-  def fizzbuzz(n)
-    return "fizzbuzz" if n % 3 == 0 && n % 5 == 0
-    return "fizz" if n % 3 == 0
-    return "buzz" if n % 5 == 0
-    n.to_s
+  def fizzbuzz(num)
+    return 'fizzbuzz' if (num % 3).zero? && (num % 5).zero?
+    return 'buzz' if (num % 5).zero?
+    return 'fizz' if (num % 3).zero?
+
+    num.to_s
   end
 end
